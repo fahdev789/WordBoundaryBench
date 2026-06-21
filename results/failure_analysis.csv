@@ -1,0 +1,61 @@
+id,model,prompt,forbidden_words,passed,violated_words,violation_count
+1,DeepSeek,Explain machine learning without using the word MODEL.,MODEL,True,,0
+2,DeepSeek,Explain recursion without using the word FUNCTION.,FUNCTION,True,,0
+3,DeepSeek,Explain gravity without using the word FORCE.,FORCE,True,,0
+4,DeepSeek,Explain photosynthesis without using the words SUNLIGHT or PLANT.,SUNLIGHT|PLANT,True,,0
+5,DeepSeek,Explain evolution without using the words NATURAL or SELECTION.,NATURAL|SELECTION,True,,0
+6,DeepSeek,Explain blockchain without using the words BLOCK or CHAIN.,BLOCK|CHAIN,True,,0
+7,DeepSeek,Explain the internet without using the words NETWORK or COMPUTER.,NETWORK|COMPUTER,True,,0
+8,DeepSeek,Explain quantum mechanics without using the word PARTICLE.,PARTICLE,True,,0
+9,DeepSeek,Explain neural networks without using the words NEURON or LAYER.,NEURON|LAYER,True,,0
+10,DeepSeek,Explain databases without using the words TABLE or RECORD.,TABLE|RECORD,False,TABLE|RECORD,2
+11,DeepSeek,Explain encryption without using the words KEY or CIPHER.,KEY|CIPHER,True,,0
+12,DeepSeek,Explain operating systems without using the words KERNEL or PROCESS.,KERNEL|PROCESS,True,,0
+13,GPT-4,Explain DNA without using the words GENE or GENETIC.,GENE|GENETIC,True,,0
+14,DeepSeek,Explain cloud computing without using the words SERVER or CLOUD.,SERVER|CLOUD,True,,0
+15,GPT-4,Explain cloud computing without using the words SERVER or CLOUD.,SERVER|CLOUD,False,CLOUD,1
+16,GPT-4,Explain reinforcement learning without using the words REWARD or AGENT.,REWARD|AGENT,True,,0
+17,DeepSeek,Explain reinforcement learning without using the words REWARD or AGENT.,REWARD|AGENT,True,,0
+18,GPT-4,Explain transformers in AI without using the words ATTENTION or TOKEN.,ATTENTION|TOKEN,True,,0
+19,DeepSeek,Explain transformers in AI without using the words ATTENTION or TOKEN.,ATTENTION|TOKEN,True,,0
+20,DeepSeek,Explain backpropagation without using the words GRADIENT or DERIVATIVE.,GRADIENT|DERIVATIVE,True,,0
+21,GPT-4,Explain backpropagation without using the words GRADIENT or DERIVATIVE.,GRADIENT|DERIVATIVE,True,,0
+22,DeepSeek,Explain DNA without using the words GENE or GENETIC.,GENE|GENETIC,True,,0
+23,GPT-4,Explain the immune system without using the words ANTIBODY or PATHOGEN.,ANTIBODY|PATHOGEN,True,,0
+24,DeepSeek,Explain the immune system without using the words ANTIBODY or PATHOGEN.,ANTIBODY|PATHOGEN,True,,0
+25,GPT-4,Explain black holes without using the words GRAVITY or EVENT HORIZON.,GRAVITY|EVENT|HORIZON,True,,0
+26,DeepSeek,Explain black holes without using the words GRAVITY or EVENT HORIZON.,GRAVITY|EVENT|HORIZON,True,,0
+27,GPT-4,Explain relativity without using the words SPACE or TIME.,SPACE|TIME,True,,0
+28,DeepSeek,Explain relativity without using the words SPACE or TIME.,SPACE|TIME,False,SPACE,1
+29,GPT-4,Explain compilers without using the words CODE or PROGRAM.,CODE|PROGRAM,False,CODE|PROGRAM,3
+30,DeepSeek,Explain compilers without using the words CODE or PROGRAM.,CODE|PROGRAM,True,,0
+31,GPT-4,Explain APIs without using the words INTERFACE or REQUEST.,INTERFACE|REQUEST,True,,0
+32,DeepSeek,Explain APIs without using the words INTERFACE or REQUEST.,INTERFACE|REQUEST,True,,0
+33,GPT-4,Explain containers (software) without using the words DOCKER or VIRTUALIZATION.,DOCKER|VIRTUALIZATION,True,,0
+34,DeepSeek,Explain containers (software) without using the words DOCKER or VIRTUALIZATION.,DOCKER|VIRTUALIZATION,True,,0
+35,GPT-4,Explain distributed systems without using the words NODE or DISTRIBUTED.,NODE|DISTRIBUTED,False,DISTRIBUTED,1
+36,DeepSeek,Explain distributed systems without using the words NODE or DISTRIBUTED.,NODE|DISTRIBUTED,True,,0
+37,GPT-4,Explain search engines without using the words INDEX or QUERY.,INDEX|QUERY,True,,0
+38,DeepSeek,Explain search engines without using the words INDEX or QUERY.,INDEX|QUERY,True,,0
+39,GPT-4,"Explain large language models without using the words LANGUAGE, MODEL, or TOKEN.",LANGUAGE|MODEL|TOKEN,False,MODEL,1
+40,DeepSeek,"Explain large language models without using the words LANGUAGE, MODEL, or TOKEN.",LANGUAGE|MODEL|TOKEN,True,,0
+41,GPT-4,Explain attention mechanisms in AI without using the words ATTENTION or WEIGHT.,ATTENTION|WEIGHT,False,WEIGHT,1
+42,DeepSeek,Explain attention mechanisms in AI without using the words ATTENTION or WEIGHT.,ATTENTION|WEIGHT,True,,0
+43,DeepSeek,Explain memory management in computers without using the words MEMORY or RAM.,MEMORY|RAM,True,,0
+44,GPT-4,Explain memory management in computers without using the words MEMORY or RAM.,MEMORY|RAM,True,,0
+45,GPT-4,Explain the stock market without using the words STOCK or SHARE.,STOCK|SHARE,True,,0
+46,DeepSeek,Explain the stock market without using the words STOCK or SHARE.,STOCK|SHARE,True,,0
+47,GPT-4,Explain democracy without using the words VOTE or ELECTION.,VOTE|ELECTION,True,,0
+48,DeepSeek,Explain democracy without using the words VOTE or ELECTION.,VOTE|ELECTION,True,,0
+49,GPT-4,Explain recursion without using the word FUNCTION.,FUNCTION,True,,0
+50,GPT-4,Explain machine learning without using the word MODEL.,MODEL,True,,0
+51,GPT-4,Explain gravity without using the word FORCE.,FORCE,True,,0
+52,GPT-4,Explain photosynthesis without using the words SUNLIGHT or PLANT.,SUNLIGHT|PLANT,True,,0
+53,GPT-4,Explain evolution without using the words NATURAL or SELECTION.,NATURAL|SELECTION,True,,0
+54,GPT-4,Explain blockchain without using the words BLOCK or CHAIN.,BLOCK|CHAIN,True,,0
+55,GPT-4,Explain the internet without using the words NETWORK or COMPUTER.,NETWORK|COMPUTER,True,,0
+56,GPT-4,Explain quantum mechanics without using the word PARTICLE.,PARTICLE,True,,0
+57,GPT-4,Explain neural networks without using the words NEURON or LAYER.,NEURON|LAYER,True,,0
+58,GPT-4,Explain databases without using the words TABLE or RECORD.,TABLE|RECORD,True,,0
+59,GPT-4,Explain encryption without using the words KEY or CIPHER.,KEY|CIPHER,True,,0
+60,GPT-4,Explain operating systems without using the words KERNEL or PROCESS.,KERNEL|PROCESS,True,,0
