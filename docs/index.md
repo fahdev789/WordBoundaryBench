@@ -1,6 +1,6 @@
 # WordBoundaryBench: Repository Index
 
-**WordBoundaryBench** evaluates whether Large Language Models (LLMs) can follow word-forbidden constraints while explaining concepts. Inspired by findings from "Reasoning Models Struggle with Chain-of-Thought", this benchmark compares GPT-4 and DeepSeek on lexical constraint adherence and analyzes failure modes.
+**WordBoundaryBench** evaluates whether Large Language Models (LLMs) can follow word-forbidden constraints while explaining concepts. Inspired by findings from "Reasoning Models Struggle with Chain[...]
 
 ---
 
@@ -12,6 +12,7 @@
 - [How to Use](#how-to-use)
 - [Results Summary](#results-summary)
 - [Technical Details](#technical-details)
+- [Citations](#citations)
 
 ---
 
@@ -188,6 +189,14 @@ DeepSeek demonstrates stronger lexical boundary adherence. GPT-4's failures are 
 - [ ] More prompt categories and concepts
 - [ ] Statistical significance testing
 - [ ] Conference-ready paper version
+
+---
+
+## Citations
+
+1. **CoTControl**: YuehHanChen/CoTControl - [https://github.com/YuehHanChen/CoTControl](https://github.com/YuehHanChen/CoTControl)
+
+2. **OpenAI Reasoning Models**: "Reasoning Models Struggle with Chain-of-Thought Controllability" - [https://openai.com/index/reasoning-models-chain-of-thought-controllability/](https://openai.com/index/reasoning-models-chain-of-thought-controllability/)
 
 ---
 
